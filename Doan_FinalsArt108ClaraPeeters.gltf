@@ -4,30 +4,10 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_lights_punctual",
 		"KHR_materials_specular",
 		"KHR_materials_ior",
 		"KHR_materials_sheen"
 	],
-	"extensionsRequired":[
-		"KHR_lights_punctual"
-	],
-	"extensions":{
-		"KHR_lights_punctual":{
-			"lights":[
-				{
-					"color":[
-						1,
-						1,
-						1
-					],
-					"intensity":6830,
-					"type":"directional",
-					"name":"Light"
-				}
-			]
-		}
-	},
 	"scene":0,
 	"scenes":[
 		{
@@ -102,8 +82,7 @@
 				66,
 				67,
 				68,
-				69,
-				70
+				69
 			]
 		}
 	],
@@ -830,30 +809,6 @@
 				3.277909517288208,
 				4.479305267333984,
 				5.2651262283325195
-			]
-		},
-		{
-			"extensions":{
-				"KHR_lights_punctual":{
-					"light":0
-				}
-			},
-			"name":"Light",
-			"rotation":[
-				-0.1294771134853363,
-				-0.8367539644241333,
-				-0.42540958523750305,
-				0.3195391297340393
-			],
-			"scale":[
-				0.5442121624946594,
-				0.5442121028900146,
-				0.5442121624946594
-			],
-			"translation":[
-				-4.678645133972168,
-				6.408295154571533,
-				-0.4085044860839844
 			]
 		},
 		{
