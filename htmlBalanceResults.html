@@ -1,0 +1,22 @@
+ <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>Account Balance Results </title> <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            document.getElementById('balanceDisplay').textContent = "30.98";
+                        }); </script> <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100vh;
+                            margin: 0;
+                            background-color: #f0f0f0;
+                        }
+                        .balance-container {
+                            background-color: white;
+                            border-radius: 10px;
+                            padding: 20px;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                            text-align: center;
+                        } </style> </head> <body> <div class="balance-container"> <h2>Current Balance </h2> <div id="balanceDisplay" style="font-size: 24px; color: #333;">
+                            Loading balance... </div> </div> </body> </html>
+                
